@@ -5,8 +5,11 @@
 
 ### Полезные ссылки
 [https://ru.wordpress.org/download/](https://ru.wordpress.org/download/) — скачать Wordpress
+
 [http://wp-kama.ru/](http://wp-kama.ru/) — сайт о Wordpress
+
 [https://ospanel.io/download/](https://ospanel.io/download/) — локальный сервер для Windows
+
 [https://www.mamp.info/en/](https://www.mamp.info/en/) — локальный сервер для Maс OS
 
 ### Задание
@@ -18,6 +21,7 @@
 
 ### Полезные ссылки
 [https://www.advancedcustomfields.com/](https://www.advancedcustomfields.com/) — Сайт плагина ACF
+
 [https://wp-kama.ru/function/get_post_custom](https://wp-kama.ru/function/get_post_custom) — Статья про функцию из урока
 
 ### Задание
