@@ -196,25 +196,19 @@
 						<!-- /.col-8 -->
 										<!-- Форма на главной секции -->
 						<div class="col-12 col-md-10 col-lg-5 col-xl-4">
-							<form action="mailer/smart.php" method="POST" class="form">
-								<div class="form-main">
-									<div class="form-title">
-										Закажите макетные материалы 
-										прямо сейчас
-									</div>
-									<!-- /.form-title -->
-									<input type="text" name="user_name" class="form-input" placeholder="Ваше имя" required>
-									<input type="tel" name="user_phone" class="form-input input-phone" placeholder="Контактный телефон" required>
-									<textarea name="user_text" class="form-input form-textarea" placeholder="Какие материалы вам требуются?" cols="20" rows="3" required></textarea>
-									<button class="form-button" type="submit">Оставить заявку</button>
-									<div class="form-small">
-										Нажимая на кнопку оставить заявку
-										вы соглашаетесь с <div class="show-politic">политикой обработки данных</div>
-									</div>
-									<!-- /.small -->
+							<div class="form-main form">
+								<div class="form-title">
+									Закажите макетные материалы 
+									прямо сейчас
 								</div>
-							</form>
-							<!-- /.form -->
+								<!-- /.form-title -->
+								<?php echo do_shortcode( '[contact-form-7 id="163" title="Untitled"]' ); ?>
+								<div class="form-small">
+									Нажимая на кнопку оставить заявку
+									вы соглашаетесь с <div class="show-politic">политикой обработки данных</div>
+								</div>
+								<!-- /.small -->
+							</div>
 						</div>
 						<!-- /.col-4 -->
 					</div>
@@ -405,38 +399,19 @@
 			</div>
 			<!-- /.section-title -->
 			<div class="container">
-				<form action="mailer/smart.php" method="POST" class="form form-order">
-					<div class="form-main form-main_order">
-						<div class="form-title form-order-title">
-							Оставьте заявку и мы подберем Вам необходимые для Вас материалы
-						</div>
-						<!-- /.form-title -->
-						<div class="form-order_block">
-							<div class="row justify-content-center">
-								<div class="col-12 col-lg-4 col-xl-3">
-									<input type="text" name="user_name" class="form-input form-order-input wow fadeInDown"  placeholder="Ваше имя" required>
-								</div>
-								<div class="col-12 col-lg-4 col-xl-3">
-									<input type="tel" name="user_phone" class="form-input form-order-input input-phone wow fadeInDown" data-wow-delay="0.2s" placeholder="Контактный телефон" required>
-								</div>
-								<div class="col-12 col-lg-4 col-xl-3">
-									<textarea name="user_text" cols="1" rows="1" class="form-input form-textarea form-order-input form-order-textarea wow fadeInDown" data-wow-delay="0.4s" placeholder="Какие материалы вам требуются?" required></textarea>
-								</div>
-								<div class="col-12 col-lg-4 col-xl-3">
-									<button class="form-button form-order-button wow fadeInDown" data-wow-delay="0.6s">Оставить заявку</button>
-								</div>
-							</div>
-						</div>
-						<!-- /.form-block -->
-						<div class="form-small form-order-small">
-							Нажимая на кнопку оставить заявку
-							вы соглашаетесь с <div class="show-politic">политикой обработки данных</div>
-						</div>
-						<!-- /.form-small -->
+				<div class="form-main form-main_order form form-order">
+					<div class="form-title form-order-title">
+						Оставьте заявку и мы подберем Вам необходимые для Вас материалы
 					</div>
-					<!-- /.form-main form-order -->
-				</form>
-				<!-- /.form -->
+					<!-- /.form-title -->
+					<?php echo do_shortcode( '[contact-form-7 id="167" title="Не нашли то что искали?"]' ); ?>
+					<!-- /.form-block -->
+					<div class="form-small form-order-small">
+						Нажимая на кнопку оставить заявку
+						вы соглашаетесь с <div class="show-politic">политикой обработки данных</div>
+					</div>
+					<!-- /.form-small -->
+				</div>
 			</div>
 			<!-- /.container -->
 		</section>
@@ -726,26 +701,20 @@
 		<!-- /.footer-bg -->
 			<div class="overlay animated fadeIn">
 				<div class="popup">
-					<form action="mailer/smart.php" method="POST" class="form form-popup">
 						<div class="popup_close">&#10005;</div>
-						<div class="form-main">
+						<div class="form-main form form-popup">
 							<div class="form-title">
 								Закажите макетные материалы 
 								прямо сейчас
 							</div>
 							<!-- /.form-title -->
-							<input type="text" name="user_name" class="form-input" placeholder="Ваше имя" required>
-							<input type="tel" name="user_phone" id="phone1" class="form-input input-phone" placeholder="Контактный телефон" required>
-							<textarea name="user_text" class="form-input form-textarea" placeholder="Какие материалы вам требуются?" cols="20" rows="3" required></textarea>
-							<button class="form-button" type="submit">Оставить заявку</button>
+							<?php echo do_shortcode( '[contact-form-7 id="168" title="PopUp"]' ); ?>
 							<div class="form-small">
 								Нажимая на кнопку оставить заявку
 								вы соглашаетесь с <div class="show-politic">политикой обработки данных</div>
 							</div>
 							<!-- /.small -->
 						</div>
-					</form>
-					<!-- /.form -->
 				</div>
 			</div>
 			<!-- /.overlay -->

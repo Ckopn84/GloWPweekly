@@ -45,12 +45,14 @@ button {
   color: #7c7c7c;
   border: 1px solid #e8e8e8;
   -webkit-box-shadow: none;
-  box-shadow: none;
+	box-shadow: none;
+	/* max-width: 253px; */
 }
 
 .form-textarea {
   margin-bottom: 23px;
-  resize: none;
+	resize: none;
+	max-height: 82px;
 }
 
 .form-button {
@@ -1946,3 +1948,17 @@ button {
   src: url("../fonts/ProximaNova-Regular.ttf");
   font-style: normal;
 }
+
+.wpcf7 form .wpcf7-response-output {
+	color: #333;
+}
+
+.size-max-height-auto {
+	max-height: 50px;
+}
+
+/* .wpcf7 form p {
+	width: 100%;
+	margin-block-start: 0px;
+	margin-block-end: 18px;
+} */
