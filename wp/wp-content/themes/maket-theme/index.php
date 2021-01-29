@@ -20,7 +20,7 @@
 						<div class="col-5 col-sm-3 col-lg-3">
 							<a href="#" class="header-logo">
 								<!-- <div class="header-logo__img"></div> -->
-								<img src="<?php echo get_template_directory_uri(); ?>/img/header-footer/header-logo.png" class="header-logo__img" alt="">
+								<?php echo get_custom_logo( 0 ); ?>
 							</a>
 						</div>
 						<!-- /.col-3 -->
@@ -626,7 +626,7 @@
 			</div>
 			<!-- /.contacts  -->
 			<div class="map">
-				<script async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Abc64111efa18e9cd45b67a4899437e2ea575494fa0d59ee70708c66b4397775f&amp;width=100%25&amp;height=417&amp;lang=ru_RU&amp;scroll=false"></script>
+				<?php the_field( 'map_yandex_code', 2 ) ?>
 			</div>
 		</div>
 		<!-- /.contacts-bg -->
